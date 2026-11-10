@@ -25,3 +25,20 @@ Hệ thống bao phủ toàn bộ quy trình nghiệp vụ của thư viện, đ
 - **Quản lý danh mục:** Quản lý thông tin Sách (ISBN, tên, thể loại...) và Độc giả (thông qua CMND), hỗ trợ Import/Export dữ liệu.
 - **Nghiệp vụ mượn trả:** Lập phiếu mượn, xử lý trả sách, kiểm tra các ràng buộc và tự động tính toán tiền phạt đối với các trường hợp quá hạn.
 - **Thống kê & Báo cáo:** Trích xuất các số liệu quan trọng như lượt mượn theo tháng/thể loại, cùng bảng xếp hạng Top 10 sách và độc giả mượn nhiều nhất.
+
+---
+
+## Tiến độ thực hiện (Checklist)
+
+| Tuần | Checklist |
+| :--- | :--- |
+| **1** | - [ ] Repo Git <br> - [ ] SRS.pdf <br> - [ ] Cấu trúc thư mục |
+| **2** | - [ ] Design.pdf <br> - [ ] Sơ đồ lớp <br> - [ ] Định nghĩa struct |
+| **3** | - [ ] AVL <br> - [ ] BST <br> - [ ] Test quản lý sách |
+| **4** | - [ ] Hash Table <br> - [ ] Test quản lý độc giả |
+| **5** | - [ ] LinkedList <br> - [ ] Dynamic Array <br> - [ ] File I/O |
+| **6** | - [ ] Mượn sách <br> - [ ] Trả sách <br> - [ ] Tính phạt |
+| **7** | - [ ] Graph <br> - [ ] BFS/DFS <br> - [ ] Thống kê top 10 |
+| **8** | - [ ] CTDL mới <br> - [ ] Tích hợp <br> - [ ] Demo |
+| **9** | - [ ] Unit test <br> - [ ] Bảng so sánh <br> - [ ] User manual |
+| **10** | - [ ] Báo cáo <br> - [ ] Video <br> - [ ] Slide <br> - [ ] Nộp + ký |
