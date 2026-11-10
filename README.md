@@ -1,7 +1,7 @@
 # DoAn_TinHoc_2026_2027
-📅 Checklist Tiến Độ
+Checklist Tiến Độ
 Tuần 1
- Repo Git
+Repo Git
  SRS.pdf
  Cấu trúc thư mục
 Tuần 2
