@@ -28,6 +28,7 @@ Hệ thống bao phủ toàn bộ quy trình nghiệp vụ của thư viện, đ
 
 ---
 
+
 ##  Tiến độ thực hiện (Checklist)
 
 | Tuần | Checklist |
@@ -43,3 +44,15 @@ Hệ thống bao phủ toàn bộ quy trình nghiệp vụ của thư viện, đ
 | **9** | - [ ] Unit test <br> - [ ] Bảng so sánh <br> - [ ] User manual |
 | **10** | - [ ] Báo cáo <br> - [ ] Video <br> - [ ] Slide <br> - [ ] Nộp + ký |
 
+
+## Cấu trúc thư mục
+
+```text
+LibraryManagement/
+├── include/      # các file header (.h)
+├── src/          # các file source code (.cpp)
+├── data/         # file dữ liệu mẫu (.dat, .txt)
+├── docs/         # báo cáo (SRS.pdf, Design.pdf), hình ảnh, sơ đồ
+├── tests/        # các file test case
+├── Makefile
+└── README.md
