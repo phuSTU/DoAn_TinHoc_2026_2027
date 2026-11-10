@@ -8,18 +8,20 @@
 
 ---
 
-## Giới thiệu chung
+## Tổng quan dự án
 
-- Đồ án xây dựng phần mềm quản lý thư viện bằng ngôn ngữ "C++".
-- Chương trình ứng dụng các Cấu trúc dữ liệu và giải thuật đã học, kết hợp với một CTDL tự tìm hiểu, lưu trữ dữ liệu trực tiếp trên file (nhị phân và văn bản) mà "không sử dụng hệ quản trị CSDL".
+**Quản lý Thư viện** là một ứng dụng Console được phát triển bằng ngôn ngữ **C++**, hướng đến việc giải quyết bài toán quản lý và vận hành thực tế của một thư viện. Điểm cốt lõi của dự án là việc tự xây dựng các cấu trúc dữ liệu (CTDL) nền tảng và quản lý lưu trữ trực tiếp thông qua hệ thống tệp tin (File I/O) với cả định dạng nhị phân và văn bản, hoàn toàn không sử dụng Hệ quản trị Cơ sở dữ liệu (CSDL) truyền thống.
 
----
+## Điểm nổi bật về Kỹ thuật
 
-## Các chức năng chính
+Dự án không chỉ dừng lại ở các thao tác CRUD (Thêm, Đọc, Sửa, Xóa) cơ bản mà còn tích hợp các giải thuật tối ưu nhằm nâng cao trải nghiệm người dùng:
+- **Tìm kiếm thông minh:** Ứng dụng cấu trúc **Trie** để xây dựng tính năng Autocomplete, cho phép tìm kiếm sách theo tiền tố tên một cách tức thời.
+- **Hệ thống gợi ý:** Ứng dụng lý thuyết **Đồ thị** để phân tích và đề xuất các đầu sách có cùng thể loại cho độc giả.
+- **Quản lý dữ liệu an toàn:** Tự động hóa quá trình đọc/ghi file nhị phân `.dat` để tối ưu dung lượng và tốc độ, kết hợp xuất báo cáo `.txt` và tính năng sao lưu (Backup) dữ liệu.
 
-- Quản lý Sách: Thêm/Xóa/Sửa, tìm kiếm theo ISBN, tìm kiếm theo tiền tố tên, Import/Export file.
-- Quản lý Độc giả: Thêm/Xóa/Sửa thông tin, quản lý theo CMND.
-- Mượn/Trả sách: Lập phiếu mượn, xử lý trả sách, tính tiền phạt quá hạn, kiểm tra ràng buộc.
-- Thống kê - Báo cáo: Thống kê lượt mượn theo tháng/thể loại, Top 10 sách/độc giả mượn nhiều nhất.
-- Tìm kiếm nâng cao & Gợi ý: Gợi ý sách cùng thể loại (Đồ thị), tìm kiếm sách theo tiền tố (Trie - Autocomplete).
-- Lưu trữ: Tự động đọc/ghi file nhị phân (.dat), xuất báo cáo (.txt), backup dữ liệu.
+## Các phân hệ chức năng
+
+Hệ thống bao phủ toàn bộ quy trình nghiệp vụ của thư viện, được chia thành các nhóm chính:
+- **Quản lý danh mục:** Quản lý thông tin Sách (ISBN, tên, thể loại...) và Độc giả (thông qua CMND), hỗ trợ Import/Export dữ liệu.
+- **Nghiệp vụ mượn trả:** Lập phiếu mượn, xử lý trả sách, kiểm tra các ràng buộc và tự động tính toán tiền phạt đối với các trường hợp quá hạn.
+- **Thống kê & Báo cáo:** Trích xuất các số liệu quan trọng như lượt mượn theo tháng/thể loại, cùng bảng xếp hạng Top 10 sách và độc giả mượn nhiều nhất.
