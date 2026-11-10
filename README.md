@@ -27,14 +27,16 @@ Hệ thống bao phủ toàn bộ quy trình nghiệp vụ của thư viện, đ
 - **Thống kê & Báo cáo:** Trích xuất các số liệu quan trọng như lượt mượn theo tháng/thể loại, cùng bảng xếp hạng Top 10 sách và độc giả mượn nhiều nhất.
 
 ---
+## Cấu trúc thư mục
 
+```text
 LibraryManagement/
-├── include/      # Chứa header file (.h)
-├── src/          # Chứa các source file  (.cpp)
+├── include/      # các file header (.h)
+├── src/          # các file soure code (.cpp)
 ├── data/         # file dữ liệu mẫu (.dat, .txt)
-├── docs/         # báo cáo (SRS.pdf, Design.pdf), hình ảnh,sơ đồ
-├── tests/        # các file tests case
-├── Makefile      
+├── docs/         # báo cáo (SRS.pdf, Design.pdf), hình ảnh, sơ đồ
+├── tests/        # các file test case
+├── Makefile
 └── README.md
 
 ## Tiến độ thực hiện (Checklist)
