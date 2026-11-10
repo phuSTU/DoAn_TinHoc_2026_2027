@@ -28,6 +28,15 @@ Hệ thống bao phủ toàn bộ quy trình nghiệp vụ của thư viện, đ
 
 ---
 
+LibraryManagement/
+├── include/      # Chứa header file (.h)
+├── src/          # Chứa các source file  (.cpp)
+├── data/         # file dữ liệu mẫu (.dat, .txt)
+├── docs/         # báo cáo (SRS.pdf, Design.pdf), hình ảnh,sơ đồ
+├── tests/        # các file tests case
+├── Makefile      
+└── README.md
+
 ## Tiến độ thực hiện (Checklist)
 
 | Tuần | Checklist |
