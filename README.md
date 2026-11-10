@@ -1,10 +1,10 @@
 # Chương Trình Quản Lý Thư Viện
 
-- **Môn học:** Đồ án Tin học
-- **Giảng viên hướng dẫn:** Lương An Vinh
-- **Sinh viên thực hiện:**
-  - Trần Đức Minh - MSSV: DH52400646
-  - Phạm Đăng Lưu - MSSV: DH52400635
+- Môn học: Đồ án Tin học
+- Giảng viên hướng dẫn: Lương An Vinh
+- Sinh viên thực hiện:
+  -Huỳnh Hoàng Gia Phú - MSSV: DH52113030
+  
 
 ---
 
