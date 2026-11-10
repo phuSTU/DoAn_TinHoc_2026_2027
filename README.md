@@ -39,6 +39,8 @@ LibraryManagement/
 ├── Makefile
 └── README.md
 
+---
+
 ## Tiến độ thực hiện (Checklist)
 
 | Tuần | Checklist |
