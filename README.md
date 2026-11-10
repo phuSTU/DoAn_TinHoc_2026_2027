@@ -3,7 +3,7 @@
 - Môn học: Đồ án Tin học
 - Giảng viên hướng dẫn: Lương An Vinh
 - Sinh viên thực hiện:
-  -Huỳnh Hoàng Gia Phú - MSSV: DH52113030
+  Huỳnh Hoàng Gia Phú - MSSV: DH52113030
   
 
 ---
